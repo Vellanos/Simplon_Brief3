@@ -1,0 +1,47 @@
+.background1 {  
+    display: flex;
+    width: 100%;
+    background-image: url('../Assets/img/banner_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.bloc1-box {
+    color:#fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 80%;
+    max-width: 1280px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 20px;
+    
+}
+
+.bloc1-tinker-titre{
+    color: #F69536;
+}
+
+.bloc1-html-titre{
+    color: #00BCD4;
+}
+
+.bloc1-button{
+    background-color: #fff;
+    width: max-content;
+    border-radius: 25px;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    color: black;
+    font-size: 15px;
+}

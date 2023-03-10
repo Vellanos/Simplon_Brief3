@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:transparent;
+    color:#fff;
+    position: fixed;
+    width: 100%;
+    padding: 2% 10% 2% 10%;
+    transition: background-color 400ms linear;
+
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.header-nav{
+    display: none;
+}
+
+.header-menu{
+    background-color: #E1C36C;
+    border-radius: 20%;
+    padding: 20%;
+    margin-right: 5%;
+    width: 34px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-tinker {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 1000;
+}
+
+.header-tinker::first-letter {
+    font-size: 1.7rem;
+    color: #E1C36C;
+}
+
+header > a {
+    color:  #fff;
+}
+
+header.scrolled > a {
+    color: black;
+}
+
+header.scrolled {
+    background-color: #fff;
+}   
+
+
+@media screen and (min-width: 700px) {
+    .header-ul {
+        list-style-type: none;
+        display: flex;
+        align-items: right;
+        gap: 30px;
+        height: 100%;
+    }
+      
+    
+    .header-li {
+        height: 100%;
+    }
+      
+    .header-a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    .header-nav{
+        display: unset;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .header-a{
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header-a:hover {
+        transform: scale(1.2);
+    } 
+
+    .header-a.scrolled{
+        color: black;
+    }
+
+    
+}

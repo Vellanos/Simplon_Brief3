@@ -1,0 +1,171 @@
+footer{
+    background-color: #373a3c;
+    padding: 5% 10% 5% 10%;
+}
+
+.footer-contener {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+}
+
+.footer-bloc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer-bloc-location {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-bloc-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-bloc-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-img {
+    background-color: #FFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-location-gd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer-tinker {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 1000;
+}
+
+.footer-tinker::first-letter {
+    font-size: 1.7rem;
+    color: #E1C36C;
+ 
+}
+
+a > .footer-tinker {
+    color: #FFF;
+}
+
+.footer-titre {
+    font-size: 17px;
+    padding-bottom: 10%;
+}
+
+.footer-para-moyen {
+    font-size: 15px;
+}
+
+.footer-para-petit {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.footer-trait-horizontal{
+    border-top: 1px solid #FFF;
+    width: 100%;
+}
+
+.footer-trait-vertical{
+    border-left: 1px solid #FFF;
+    height: 50px;
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-contener {
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .footer-bloc {
+        text-align: left;
+    }
+
+    .footer-bloc-info {
+        padding-top: 15%;
+    }
+
+    .footer-bloc-social {
+       padding-top: 14%;
+    }
+
+    .footer-trait-horizontal{
+        border-top: 1px solid #FFF;
+        width: unset;
+    }
+ 
+    .footer-bloc-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-para-moyen {
+        white-space: nowrap;
+    }
+    
+    .footer-para-petit {
+        white-space: nowrap;
+    }
+
+    .footer-bloc-logo {
+        padding-right: 10%;
+    }
+
+}
+
+
+@media screen and (min-width: 1480px) {
+
+    .footer-bloc-logo {
+        padding-right: 15%;
+    }
+}
+
+@media screen and (min-width: 1580px) {
+
+    .footer-bloc-logo {
+        padding-right: 20%;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+
+    .footer-bloc-logo {
+        padding-right: 25%;
+    }
+}
+
+@media screen and (min-width: 1780px) {
+
+    .footer-bloc-logo {
+        padding-right: 25%;
+    }
+}
+
+@media screen and (min-width: 1880px) {
+
+    .footer-bloc-logo {
+        padding-right: 30%;
+    }
+}
+
